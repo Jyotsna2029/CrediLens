@@ -1,0 +1,11 @@
+dataset,model,validation_accuracy_at_05
+Existing loan dataset,logistic_regression,0.8643937056464054
+Existing loan dataset,random_forest,0.9279543350817648
+Existing loan dataset,adaboost,0.8748842949706881
+Existing loan dataset,gradient_boosting,0.9197778463437211
+Existing loan dataset,xgboost,0.9293427954335082
+UCI credit card dataset,logistic_regression,0.8197897547138328
+UCI credit card dataset,random_forest,0.8152844985816786
+UCI credit card dataset,adaboost,0.8112798264642083
+UCI credit card dataset,gradient_boosting,0.819289170699149
+UCI credit card dataset,xgboost,0.8166193892875021

@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: credit-ledger
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python -m credit_risk.train --output deployment_artifacts
+    startCommand: CREDIT_RISK_ARTIFACTS=deployment_artifacts uvicorn main:app --host 0.0.0.0 --port $PORT
+    autoDeploy: true

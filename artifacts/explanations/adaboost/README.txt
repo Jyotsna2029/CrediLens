@@ -1,0 +1,1 @@
+Permutation SHAP explains the saved model probability. Importance summarizes only the requested rows, not the full population. Categorical waterfall values are encoded category indices; consult input data for original values. Contributions are associative, not causal. Correlated features can share credit. Use the same unchanged dataset used for training.

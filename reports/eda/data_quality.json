@@ -1,0 +1,21 @@
+{
+  "raw_rows": 32581,
+  "duplicates": 165,
+  "cleaned_rows": 32409,
+  "invalid_rows_after_dedup": 7,
+  "training_rows": 19445,
+  "missing_values": {
+    "person_age": 0,
+    "person_income": 0,
+    "person_emp_length": 895,
+    "loan_amnt": 0,
+    "loan_int_rate": 3116,
+    "loan_percent_income": 0,
+    "cb_person_cred_hist_length": 0,
+    "person_home_ownership": 0,
+    "loan_intent": 0,
+    "loan_grade": 0,
+    "cb_person_default_on_file": 0,
+    "loan_status": 0
+  }
+}
